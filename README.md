@@ -1,10 +1,10 @@
-# 🛡️ DIO Agent — Especialização em Análise de Vulnerabilidades (AppSec)
+#  DIO Agent — Especialização em Análise de Vulnerabilidades (AppSec)
 
 Projeto desenvolvido para o desafio prático da **DIO (Digital Innovation One)**, evoluindo o [dio-agent](https://github.com/digitalinnovationone/dio-agent) para atuar como um **Mentor de Cibersegurança e Analista de AppSec**.
 
 ---
 
-## 📌 Visão Geral da Especialização
+##  Visão Geral da Especialização
 
 Em vez de fornecer respostas imediatas ou automáticas, o agente foi calibrado para conduzir análises de segurança como um profissional:
 1. **Entende o contexto** antes de sugerir comandos ou correções.
@@ -14,7 +14,7 @@ Em vez de fornecer respostas imediatas ou automáticas, o agente foi calibrado p
 
 ---
 
-## 📂 Arquivos Criados e Estrutura
+##  Arquivos Criados e Estrutura
 
 ```text
 ├── README.md                              # Documentação principal do projeto
@@ -32,7 +32,7 @@ Em vez de fornecer respostas imediatas ou automáticas, o agente foi calibrado p
 
 ---
 
-## 🔬 Validação com Caso de Teste (`app.py`)
+##  Validação com Caso de Teste (`app.py`)
 
 Foi implementado um cenário clássico de autenticação web com banco de dados SQLite:
 * **Cenário Inseguro:** Concatenação direta de strings no comando SQL, permitindo SQL Injection clássico (`' OR '1'='1`).
@@ -40,7 +40,7 @@ Foi implementado um cenário clássico de autenticação web com banco de dados 
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Abra o terminal na raiz deste projeto:
    ```bash
